@@ -96,6 +96,21 @@ img {
     display: block;
 }
 
+/*-------------------
+----- UTILITIES -----
+---------------------*/
+[class$="__container"] {
+    max-width: 100rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media (min-width: 1800px) {
+    [class$="__container"] {
+        max-width: 120rem;
+    }
+}
+
 /*----------------
 ----- HEADER -----
 ------------------*/
@@ -135,18 +150,6 @@ img {
 @media (min-width: 1800px) {
     .header {
         background-size: 145rem;
-    }
-}
-
-.header__container {
-    max-width: 100rem;
-    margin: 0 auto;
-    width: 90%;
-}
-
-@media (min-width: 1800px) {
-    .header__container {
-        max-width: 120rem;
     }
 }
 
@@ -230,7 +233,7 @@ img {
     .header__title {
         font-size: var(--font-size-h1);
         line-height: var(--line-height-md);
-    }   
+    }
 }
 
 @media (min-width: 1800px) {
@@ -278,15 +281,9 @@ img {
     margin: var(--spacing-lg) 0;
 }
 
-.about__container {
-    max-width: 100rem;
-    margin: 0 auto;
-    width: 90%;
-}
-
 .about__title {
     text-align: center;
-    margin-bottom: var(--spacing-md);
+    margin: 0 0 var(--spacing-md) 0;
 }
 
 @media (min-width: 768px) {
@@ -296,22 +293,29 @@ img {
 
     .about__grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 2fr;
         gap: var(--spacing-lg);
         align-items: center;
     }
-    
+
     .about__image {
         max-width: 33rem;
     }
 
-    .features {
-        grid-column: 2 / 4;
+    .about__mockup {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
     }
 }
 
 .features {
-    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+    .features {
+        margin-bottom: 0;
+    }
 }
 
 .feature__card {
@@ -329,6 +333,10 @@ img {
 @media (min-width: 768px) {
     .feature__card {
         margin-bottom: var(--spacing-lg);
+    }
+
+    .feature__card:last-child {
+        margin-bottom: 0;
     }
 }
 
@@ -351,7 +359,7 @@ img {
 @media (min-width: 768px) {
     .feature__card {
         text-align: left;
-    }   
+    }
 }
 
 .feature__title {
