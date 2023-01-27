@@ -363,7 +363,7 @@ img {
     -o-transform: scale(1.08) rotate(.8deg);
 }
 
-.feature__card:nth-child(2):hover {
+.feature__card:nth-child(2n+1):hover {
     transform: scale(1.05) rotate(-.8deg);
     -webkit-transform: scale(1.05) rotate(-.8deg);
     -moz-transform: scale(1.05) rotate(-.8deg);
