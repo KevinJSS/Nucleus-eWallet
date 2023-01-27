@@ -1,4 +1,4 @@
-# Nucleus-eWallet
+# Nucleus-eWallet - [![Netlify Status](https://api.netlify.com/api/v1/badges/9619c319-77e8-4bcc-84d3-a7a1a7df3281/deploy-status)](https://app.netlify.com/sites/nucleus-ewallet-kevjs/deploys)
 Responsive (Front-End) Prototype of a eWallet App. Using BEM CSS Methodology.
 
 `Website Demo:` https://nucleus-ewallet-kevjs.netlify.app/
