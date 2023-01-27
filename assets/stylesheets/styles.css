@@ -126,25 +126,25 @@ img {
 @media (min-width: 768px) {
     .header {
         padding: var(--spacing-lg) 0 0 0;
-        background-size: 51rem;
+        background-size: 55rem;
     }
 }
 
 @media (min-width: 992px) {
     .header {
-        background-size: 60rem;
+        background-size: 65rem;
     }
 }
 
 @media (min-width: 1200px) {
     .header {
-        background-size: 72rem;
+        background-size: 74rem;
     }
 }
 
 @media (min-width: 1400px) {
     .header {
-        background-size: 88rem;
+        background-size: 92rem;
     }
 }
 
