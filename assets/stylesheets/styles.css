@@ -601,3 +601,38 @@ img {
     font-weight: var(--font-weight-bold);
 }
 
+/*----------------
+----- FOOTER -----
+------------------*/
+.footer {
+    background-color: #4a1f7a;
+    padding: var(--spacing-md) 0;
+}
+
+@media (min-width: 768px) {
+    .footer__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer__logo {
+    width: 20rem;
+    margin: var(--spacing-sm) auto var(--spacing-lg) auto;
+}
+
+@media (min-width: 768px) {
+    .footer__logo {
+        margin: 0;
+    }   
+}
+
+.navbar__link--white {
+    color: var(--light-color);
+    text-align: center;
+}
+
+.navbar__link--footer:last-of-type {
+    margin-right: 0;
+}
