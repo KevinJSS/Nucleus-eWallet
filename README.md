@@ -31,6 +31,23 @@
     <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSS3</strong>
 </div>
 
+## PREREQUISITES
+Before you begin, make sure you have met the following requirements:
+* <a href="https://git-scm.com/downloads" target="_blank">Git</a> must be installed on your operating system.
+
+## INSTALLATION
+To install <strong>Nucleus eWallet</strong>, follow these steps:
+
+Linux and macOS:
+```
+sudo git clone git@github.com:KevinJSS/Nucleus-eWallet.git
+```
+
+Windows:
+```
+git clone git@github.com:KevinJSS/Nucleus-eWallet.git
+```
+
 ## DEVELOPERS
 * Kevin Alvarado
 * <a href="https://github.com/codigoconjuan">Juan Pablo de la Torre's</a> "CSS The Complete Guide" course.
