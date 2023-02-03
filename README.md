@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/103754829/216508327-92aacaf5-a075-4961-83fe-e33b4f6897be.svg" width="250px" height="auto"/>
-  
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <img src="https://user-images.githubusercontent.com/103754829/216651614-f3864b2a-f650-42a8-a4a4-e6c7b36f51da.png" width="250px" height="auto"/>
+
   <div>
     <h1>NUCLEUS E-WALLET</h1>
   </div>
@@ -36,7 +37,7 @@ Before you begin, make sure you have met the following requirements:
 * <a href="https://git-scm.com/downloads" target="_blank">Git</a> must be installed on your operating system.
 
 ## INSTALLATION
-To install <strong>Nucleus eWallet</strong>, follow these steps:
+To try <strong>Nucleus eWallet</strong>, follow these steps:
 
 Linux and macOS:
 ```
@@ -55,5 +56,5 @@ git clone git@github.com:KevinJSS/Nucleus-eWallet.git
 <hr/>
 
 <div align="center">
-  <strong><i>Developed in 2023</i></strong> 
+  <strong><i>Developed in 2023</i></strong>
 </div>
