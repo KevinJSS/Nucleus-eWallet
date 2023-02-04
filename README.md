@@ -42,7 +42,7 @@ To try <strong>Nucleus-eWallet</strong>, follow these steps:
 
 Linux and macOS:
 ```
-sudo git clone git@github.com:KevinJSS/Nucleus-eWallet.git
+$ sudo git clone git@github.com:KevinJSS/Nucleus-eWallet.git
 ```
 
 Windows:
